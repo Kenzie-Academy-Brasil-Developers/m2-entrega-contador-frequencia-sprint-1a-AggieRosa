@@ -12,7 +12,7 @@ section{
     align-items: center;
 }
 #texto{
-    width: 200px;
+    width: 90%;
     height: 100px;
     border: 4px solid rgb(121, 128, 32);
     background-color:rgb(230, 241, 192) ;
@@ -53,18 +53,20 @@ h1{
 
 #lettersDiv{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
+    width: 200px;
     height: 100%;
     color: rgb(121, 128, 32);
     font-weight: lighter;
+    font-size: 12px;
 }
 
 #wordsDiv{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
+    width: 200px;
     height: 100%;
     color: rgb(121, 128, 32);
     font-weight: lighter;
+    font-size: 12px;
 }
 
 
@@ -73,7 +75,7 @@ h1{
         font-size: 45px;
     }
     #wordsDiv, #lettersDiv{
-     width: 70%;
+        width: 400px;
     }
     #contar{
         font-size: 22px;

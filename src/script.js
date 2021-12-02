@@ -15,9 +15,8 @@ function letras(){
     //e deixa apenas caracteres do alfabeto
     let texto = document.getElementById("texto").value;   
     texto = texto.toLowerCase()
-    texto = texto.replace(/[^a-z'\s]+/g, "")
-    texto = texto.replace(' ','')
-    
+    texto = texto.replace(/[^a-z'\s]+/g, " ")
+
     //percorre cada letra de texto
     for (let i = 0; i < texto.length; i++) {
         let letraAtual = texto[i];       
